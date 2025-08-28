@@ -1,1 +1,3 @@
-console.log('Hello world!');
+import { checkWebGpuSupport } from '@/utils/browser';
+
+checkWebGpuSupport();
